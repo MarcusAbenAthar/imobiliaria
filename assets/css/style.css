@@ -1,0 +1,298 @@
+* {
+    font-size: 1.1rem;
+    cursor: default;
+    color: #fff;
+}
+
+body {
+    background-color: #579 !important;
+}
+
+h1 {
+    margin-bottom: 0 !important;
+    background-color: #579;
+}
+
+a {
+    cursor: pointer;
+}
+
+html {
+    margin-left: 0.8em;
+    max-width: 98vw;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 98vw;
+}
+
+section {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+nav>a,
+li>a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.estiloA {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+.estiloA:hover {
+    color: var(--bs-link-hover-color);
+}
+
+input {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 12px;
+}
+
+input[type="submit"],
+input[type="button"],
+.btn,
+.buttonLink {
+    background-color: rgb(255 255 255 / 23%);
+    border-radius: 12px;
+    border: none;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 1em;
+    min-width: 100px;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover,
+.btn:hover,
+.buttonLink:hover {
+    border: 1px solid #fff;
+    color: white;
+    text-decoration: none;
+}
+
+select {
+    border: 1px solid #fff;
+}
+
+form>input,
+form>select,
+select>option {
+    color: #000;
+    margin: 1em;
+}
+
+.divUl {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+td a,
+th a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.descricao {
+    margin-top: 3em;
+    margin-right: 1em;
+}
+
+.fotoCasa {
+    border: 1px solid black;
+    border-radius: 20px;
+    max-width: 6em;
+}
+
+.botao {
+    margin-top: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+table.tableGeral {
+    border: 3px solid #000000;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+table.tableGeral td,
+table.tableGeral th {
+    border: 1px solid #000000;
+    padding: 5px 4px;
+}
+
+table.tableGeral tbody td,
+td a {
+    font-size: 13px;
+}
+
+table.tableGeral thead {
+    background: #cfcfcf;
+    background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+    background: -webkit-linear-gradient( top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+    background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
+    border-bottom: 3px solid #000000;
+}
+
+table.tableGeral thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+}
+
+table.tableGeral tfoot td {
+    font-size: 14px;
+}
+
+.barraNavegacao {
+    background-color: #3e5b78 !important;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ulNavBar {
+    width: 100%;
+}
+
+.ulNavBar>li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ulNavBar>li>a:hover {
+    color: #131464;
+}
+
+.ulNavBar>li:nth-child(2) {
+    margin-left: 4em;
+}
+
+.btnLogin {
+    text-decoration: none;
+    color: white;
+    margin-right: 1em;
+    width: fit-content;
+    height: fit-content;
+}
+
+.btnLogin:hover,
+.btnLink:hover {
+    color: #131464;
+}
+
+.btnLink {
+    border: none;
+    background-color: transparent;
+}
+
+.formNav {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.formLogin {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.formLogin> :nth-child(2) {
+    margin-top: 2em;
+}
+
+.labelSenha {
+    margin-right: -1em;
+}
+
+.btnLogar {
+    margin-left: 4em;
+}
+
+.personName {
+    width: 75px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    margin-left: 1.2rem;
+    font-size: 2rem;
+}
+
+.divPerson {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.menuPrincipal {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dropdown>.dropdown-menu {
+    background-color: #2f4d6a;
+}
+
+li>.dropList {
+    background-color: #406589;
+    border: none;
+}
+
+.liDrop>* {
+    margin: 10px 2px 10px 2px;
+}
+
+.formMenu {
+    display: flex;
+}
